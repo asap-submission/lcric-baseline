@@ -1,0 +1,17 @@
+{
+  "dataset": "cricket",
+  "num_classes": 13,
+  "num_queries": 5,
+  "attribute_set_size": 13,
+  "q1_att": 2,
+  "q2_att": 2,
+  "q3_att": 2,
+  "q4_att": 7,
+  "q_lens": "2 2 2 7",
+  "max_length": 128,
+  "downsample": 30,
+  "root": "../dataset/",
+  "save_folder": "../exps",
+  "tbx_folder": "../tbx",
+  "pretrained_weights_path": "../S3D_K400.pth.tar"
+}
